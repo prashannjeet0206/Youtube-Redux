@@ -3,7 +3,7 @@ import VideoContainer from "./VideoContainer";
 
 const MainComponent = () => {
   return (
-    <div className="col-span-10">
+    <div className="flex flex-col h-[calc(100vh-80px)] overflow-y-auto flex-1">
       <ButtonList />
       <VideoContainer />
     </div>

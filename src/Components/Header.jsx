@@ -13,7 +13,7 @@ const Header = () => {
   }
 
   return (
-    <div className=" shadow-lg flex items-center gap-4 p-4">
+    <div className=" shadow-lg flex items-center gap-4 p-4 fixed top-0 right-0 left-0 h-[80px] z-[1000]">
       {/* toggle menu */}
       <FaHamburger
         size={30}

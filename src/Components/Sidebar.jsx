@@ -9,7 +9,7 @@ const Sidebar = () => {
   }
 
   return (
-    <div className="col-span-2 shadow-lg h-full flex flex-col items-center">
+    <div className="w-[250px] h-[calc(100vh-80px)] overflow-y-hidden hover:overflow-y-auto shadow-lg flex flex-col items-center">
       <div>
         <ul className="leading-10 font-bold">
           <li>Home</li>
